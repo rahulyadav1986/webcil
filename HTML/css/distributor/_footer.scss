@@ -1,0 +1,107 @@
+footer{
+    .main_footer{
+        width: 100%;
+        background-color: var(--dark-color2);
+        
+        .portion{
+            width: 100%;
+            .logo{
+                margin-bottom: 25px;
+                display: block;
+                img{
+                   
+                    display: block;
+                }
+            }
+            p{
+                color: #b1b1b1;
+                font-size: 15px;
+                line-height: 27px;
+            }
+            h3{
+                color: var(--white-color);
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+            &.menu_area{
+                padding-left: 90px;
+            }
+            &.last{
+                padding-left: 65px;
+                p{
+                    width: 90%;
+                }
+            }
+            .ft_menu{
+                width: 100%;
+                li{
+                    width: 100%;
+                    padding-left: 30px;
+                    position: relative;
+                    margin-bottom: 18px;
+                    a{
+                        color: #b1b1b1;
+                        font-size: 15px;
+                        line-height: 27px;
+                    }
+                    img{
+                        position: absolute;
+                        top: 3px;
+                        left: 0;
+                    }
+                    &:last-child{
+                        img{
+                            top: 9px;
+                        }
+                    }
+                }
+            }
+            .social{
+                width: 100%;
+                margin-top: 27px;
+                li{
+                    margin-right: 10px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    a{
+                        width: 39px;
+                        height: 39px;
+                        background-color: #343434;
+                        border: #959595 2px solid;
+                        border-radius: 5px;
+                        color: #fff;
+                        i{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        width: 100%;
+        background-color: #131313;
+        padding: 24px 0;
+        color: #b1b1b1;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    footer {
+        .main_footer{
+            .portion{
+                &.menu_area{
+                    padding-left: 0;
+                    margin-top: 30px;
+                }
+                &.last{
+                    padding-left: 0;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    
+}

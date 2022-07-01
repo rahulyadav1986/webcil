@@ -1,0 +1,180 @@
+.chemical_section{
+    padding-bottom: 70px;
+    .main_area{
+        width: 100%;
+        .carousel_area{
+            width: 100%;  
+            a{
+                display: block;
+            }      
+            .slide_portion{
+                width: 100%;
+                height: 459px;
+                position: relative;
+                padding: 0 25px 25px 25px;
+                .content_area{
+                    width: 100%;
+                    position: relative;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                h3{
+                    color: var(--white-color);
+                    font-size: 24px;
+                    text-transform: uppercase;
+                }
+                p{
+                    color: #e8e8e8;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .link{
+                    color: var(--ternary-color);
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    font-family: var(--heading-font);
+                    font-weight: 500;
+                }
+            }
+            .owl-dots{
+                margin-top: 60px;
+                button{
+                    span{
+                        background-color: var(--white-color);
+                        border: #d4d4d4 2px solid;
+                        width: 14px;
+                        height: 14px;
+                        margin-right: 15px;
+                    }
+                    &:last-child{
+                        span{
+                            margin-right: 0;
+                        }
+                    }                
+                    &.active{
+                        span{
+                            background-color: var(--primary-color);
+                            border-color: var(--primary-color);
+                            width: 14px !important;
+                        }
+                    }
+                }
+            }
+            .owl-nav{
+                width: 100%;
+               
+                justify-content: center;
+                align-items: center;
+                button{
+                    width: 35px;
+                    height: 35px;
+                    background-color: var(--primary-color);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--white-color);
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:1500px){
+    .chemical_section{
+        .main_area {
+            .carousel_area{
+                .slide_portion {
+                    height: 378px;
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width:1199px){
+    .chemical_section{
+        .main_area {
+            .carousel_area{
+                .slide_portion {
+                    height: 312px;
+                    h3{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width:991px){
+    .chemical_section{
+        .main_area {
+            .carousel_area{
+                .slide_portion {
+                    height: 407px;
+                    h3{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .chemical_section {
+        .main_area {
+            .carousel_area{
+                .owl-nav{
+                    display: flex;
+                }
+            }
+            
+        }
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .chemical_section{
+        .main_area {
+            .carousel_area{
+                .slide_portion {
+                    height: 480px;
+                    text-align: center;
+                    p{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

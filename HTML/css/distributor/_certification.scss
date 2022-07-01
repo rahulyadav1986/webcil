@@ -1,0 +1,17 @@
+.certification_area{
+    width: 100%;
+    background-image: url(../images/certification_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .main_area{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        a{
+            margin-bottom: 30px;
+            display: block;
+            width: 100%;
+        }
+    }
+}
